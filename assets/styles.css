@@ -71,7 +71,6 @@ body{
 	color: #fff;
 	letter-spacing: 0.5px;
 	font-family: "Playfair Display", Helvetica, Arial, sans-serif;
-	font-weight: 300;
 }
 #mid p{
 	width: 60%;
@@ -116,6 +115,7 @@ body{
 	justify-content: space-around;
 	font-size: 17px;
 	margin-bottom: 60px;
+	color: #606d79;
 }
 
 #education #lower div{
@@ -144,12 +144,11 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	width: 65%;
 }
-#skills{
-	background-color: #fff;
-	margin: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+#skills_certi{
 	width: 35%;
-	display: table;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 #project{
 	padding: 20px;
@@ -165,9 +164,6 @@ body{
 	width: 100%;
 	background-color: #eeeeee;
 	height: 1px;
-}
-.headline{
-	font-weight: 500;
 }
 #heading{
 	display: flex;
@@ -200,66 +196,38 @@ body{
 #content a:hover{
 	text-decoration: underline;
 }
+#skills{
+	background-color: #fff;
+	margin-top: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 100%;
+	display: table;
 
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-   #mid{
-   	height: 350px;
-   }
-   #bottom{
-      height: 130px;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	  padding-bottom: 10px;
-   }
-   #bottom div{
-	margin-top: 18px;
-   }
-   #education{
-   	margin-top: 10px;
-   	margin-bottom: 10px;
-   	width: 95%;
-   }
-   #education #lower{
-   	flex-direction: column;
-   	align-items: center;
-   	justify-content: center;
-   	margin-bottom: 20px;
-   }
-   #pro_skills{
-   	 flex-direction: column;
-   	 align-items: center;
-   	 justify-content: center;
-   	 width: 95%;
-   }
-   #projects{
-   	 width: 95%;
-   }
-   #skills{
-   	width:  95%;
-   }
-   #project{
-   	 flex-direction: column;
-   	 align-items: center;
-   	 justify-content: center;
-   }
-   #skillbar{
-   	 flex-direction: column;
-   	 align-items: center;
-   	 justify-content: center;
-   }
 }
-
-
-
-
+#certification{
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#course{
+	padding: 20px;
+	color: #768492;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.skill > div:first-child{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 .typewriter {
   border-right: .07em solid;
@@ -402,3 +370,194 @@ body{
 }
 
 
+
+#work{
+	background-color: #fff;
+	width: 85%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#work #upperWork{
+	display: flex;
+	color: #444444;
+	font-size: 28px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+#work #lowerWork{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 17px;
+	margin-bottom: 60px;
+	color: #606d79;
+}
+
+#work #lowerWork div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 24px;
+	margin-bottom: 24px;
+}
+
+
+#Award_Extra{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+}
+#Award{
+    background-color: #fff;
+	width: 49%;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.yes{
+	font-size: 17px;
+	margin-bottom: 20px;
+	color: #606d79;
+	margin-left: 40px;
+}
+.yes a{
+	color: #5485d4;
+	cursor:pointer;
+	font-size: 14px;
+}
+.yes a:hover{
+	text-decoration: underline;
+}
+#Extra{
+    background-color: #fff;
+	width: 49%;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#activities li{
+	font-size: 17px;
+	color: #606d79;
+	margin-left: 40px;
+}
+#fotter{
+	width: 100%;
+	height: 94px;
+	background-color: #2b8fa1;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+#contact{
+	background-color: transparent;
+	width: wrap-content;
+	height: 20px;
+	position: absolute;
+	color: #fff;
+	border: none;
+	right: 3%;
+	top:20px;
+}
+#contact a{
+	border: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+   #mid{
+   	height: 350px;
+   }
+   #mid h1{
+   	font-size: 24px;
+   }
+   #bottom{
+      height: 130px;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  padding-bottom: 10px;
+   }
+   #bottom div{
+	margin-top: 18px;
+   }
+   #education{
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+   	width: 95%;
+   }
+   #education #lower{
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: center;
+   	margin-bottom: 20px;
+   }
+   #work{
+   	margin-top: 10px;
+   	margin-bottom: 10px;
+   	width: 95%;
+   }
+   #work #lowerWork{
+   	flex-direction: column;
+   	padding-left: 20px;
+   	justify-content: center;
+   	margin-bottom: 20px;
+   }
+   #pro_skills{
+   	 flex-direction: column;
+   	 align-items: center;
+   	 justify-content: center;
+   	 width: 95%;
+   }
+   #projects{
+   	 width: 95%;
+   }
+   #skills_certi{
+   	 width: 95%;
+   }
+   #project{
+   	 flex-direction: column;
+   	 align-items: center;
+   	 justify-content: center;
+   }
+   #skillbar{
+   	 flex-direction: column;
+   	 align-items: center;
+   	 justify-content: center;
+   	 width: 100%;
+   }
+   #Award_Extra{
+	 flex-direction: column;
+   	 align-items: center;
+   	 justify-content: center;
+   	 width: 95%;
+   }
+   #Award{
+   	width: 95%
+   }
+   #Extra{
+   	width: 95%;
+   }
+   .yes{
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: #606d79;
+  	margin-left: 10px;
+  }
+  #Award #heading{
+  	font-size: 18px;
+  }
+}

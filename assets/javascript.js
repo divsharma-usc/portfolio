@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 100);
+      }, 200);
     }
 
     else if (typeof fnCallback == 'function') {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
        				  StartTextAnimation(i + 1);
 				 }
-		  },60);
+		  },200);
 		 }
 		  setTimeout(function() {
           clearText();
